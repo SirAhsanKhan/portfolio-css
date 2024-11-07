@@ -148,7 +148,6 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
-
             <Footer />
         </main>
     );
