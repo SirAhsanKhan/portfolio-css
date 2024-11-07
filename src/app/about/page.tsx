@@ -34,12 +34,12 @@ const About: React.FC = () => {
               alt="Ahsan"
               className="profile-image"
             />
-            <h1 className="name">Hey, I'm Ahsan</h1>
+            <h1 className="name">{"Hey, I'm Ahsan"}</h1>
             <h2 className="subtitle">
-              I'm <Typewriter />
+              I’m <Typewriter />
             </h2>
             <p className="text">
-              I'm a 17-year-old developer, currently learning at GIAIC. I completed Q1 with a 73 percentile.
+              I’m a 17-year-old developer, currently learning at GIAIC. I completed Q1 with a 73 percentile.
               Always curious, adaptable, and passionate about technology, I love exploring how things work.
             </p>
           </div>
@@ -115,8 +115,8 @@ const About: React.FC = () => {
         <div className="mb-10 w-full max-w-2xl">
           <h3 className="text-2xl text-fbbf24 font-bold mb-4 mt-11">Testimonials</h3>
           <blockquote className="text-lg md:text-xl text-e5e7eb italic">
-            "Ahsan is a dedicated learner and a talented developer. His passion for technology is inspiring!" 
-            - A Mentor
+            {"`Ahsan is a dedicated learner and a talented developer. His passion for technology is inspiring!`" }
+            -A Mentor
           </blockquote>
         </div>
 
