@@ -1,5 +1,6 @@
 "use client";
-import { useState } from "react";
+
+import react from "react";
 import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert"; 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -78,12 +79,13 @@ const Contact = () => {
                 </div>
 
                 {/* Alert */}
-                {showAlert && (
-                    <Alert>
-                        <AlertTitle>Thank you for reaching us!</AlertTitle>
-                        <AlertDescription>You will be served shortly.</AlertDescription>
-                    </Alert>
-                )}
+                {showAlert && typeof window !== "undefined" && (
+    <Alert>
+        <AlertTitle>Thank you for reaching us!</AlertTitle>
+        <AlertDescription>You will be served shortly.</AlertDescription>
+    </Alert>
+)}
+
 
                 {/* Contact Form */}
                 <form className="contact-form" onSubmit={handleSubmit}>
