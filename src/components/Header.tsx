@@ -9,10 +9,12 @@ export default function Header() {
   return (
     <header className="header-background">
       <a href="/" className="flex">
-        <Image
-          src="/logo.png"
-          alt="Logo"
-          className="logo-image"
+      <Image
+  src="/logo.png"
+  alt="Logo"
+  className="logo-image"
+  width={50} // Adjust the width as per your design
+  height={50} // Adjust the height as per your design
         />
       </a>
 
