@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import { useRouter } from "next/router"; // Import useRouter for navigation
-import Typewriter from "@/components/Typewriter"; // Import the Typewriter component
-import FadeIn from "@/components/FadeIn"; // Import FadeIn component
+import { useRouter } from "next/navigation"; // Correct import for the app router
+import Typewriter from "@/components/Typewriter"; 
+import FadeIn from "@/components/FadeIn";
 import Image from "next/image";
 
 export default function Home() {
@@ -16,8 +16,8 @@ export default function Home() {
             src="/ahsan.png"
             alt="pf"
             className="profile-image profile-image-lg"
-            width={150} // Set a suitable width
-            height={150} // Set a suitable height
+            width={150} 
+            height={150} 
           />
           
           <div className="text-container text-container-lg">
