@@ -16,8 +16,6 @@ export default function Home() {
             src="/ahsan.png"
             alt="pf"
             className="profile-image profile-image-lg"
-            width={150} 
-            height={150} 
           />
           
           <div className="text-container text-container-lg">
